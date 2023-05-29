@@ -1,0 +1,5 @@
+num1 = int( input("Infome um número para saber seu dobro, triplo e metade: "))
+dobro = (num1 * 2)
+triplo = (num1 * 3)
+metade = int(num1 / 2)
+print("O dobro de {} é {} , triplo {}, e sua metade {}.".format(num1, dobro, triplo, metade))
